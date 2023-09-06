@@ -1,0 +1,123 @@
+:root{
+    --white-one: rgb(235, 235, 235);
+}
+
+body{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: linear-gradient(to right, rgb(223, 1, 1), rgb(27, 27, 27));
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#mainBox{
+    margin-top: 5vw;
+    display: grid;
+    height: 500px;
+    width: 450px;
+    max-width: 90%;
+    background-color: rgb(29, 29, 29);
+    border-radius: 30px;
+
+    overflow: hidden;
+}
+
+
+h1{
+    color: var(--white-one);
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+label{
+    color: var(--white-one);
+    font-size: 1.2rem;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid var(--white-one);
+
+    caret-color: var(--white-one);
+    color: var(--white-one);
+    font-size: 1.1rem;
+    padding: auto 5px;
+    justify-self: center;
+    text-align: center;
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none;
+    transition: 1s;
+}
+input:not(:focus){
+    transition: .5s;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+}
+.showPasswordButton{
+    background-color: transparent;
+    border: none;
+    float: right;
+    margin-left: -35px;
+    position: absolute;
+
+    cursor: pointer;
+}
+
+.loginButton{
+    width: 100px;
+    height: 8vh;
+    justify-self: center;
+    border: none;
+    border-radius: 10px;
+    margin: auto 10px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: rgb(201, 0, 0);
+}
+.loginButton:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .6s;
+}
+.loginButton:not(:hover){
+    transition: .6s;
+}
+
+h3{
+    color: rgb(212, 212, 212);
+}
+
+.humanVerifyBtn{
+    width: 20px;
+    height: 20px;
+}
+.humanVerifyBtn>img{
+    height: 25px;
+    width: 25px;
+
+    margin-top: -5px;
+    margin-left: -10px;
+}
+
+span{
+    font-size: 1.1rem;
+    color: rgb(212, 212, 212);
+}
+
+.createAccountHref{
+    color: rgb(201, 0, 0);
+}
