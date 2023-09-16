@@ -1,4 +1,4 @@
-I simple login page screen, i think that's a good project to a beginner
+A simple login page screen, i think that's a good project to a beginner
 
 You can acess the page with the following link: https://mthslnk-gthb.github.io/LoginPage/login.html 
 
